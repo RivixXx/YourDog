@@ -20,9 +20,9 @@
                </a>
                <nav class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Прайс</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                        <li class="menu__item"><a href="#burger-one" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="#burger-two" class="menu__link">Прайс</a></li>
+                        <li class="menu__item"><a href="#burger-three" class="menu__link">Контакты</a></li>
                     </ul>
                 </nav>
                 <nav class="tel__header">
@@ -41,17 +41,30 @@
         </header>
         <main class="main">
             <div class="main__container">
+                <div class="main__text-small">Центр вакцинации и профилактической ветеринарной медицины</div>
                 <h1 class="main__title">Your Dog</h1>
                 <div class="main__text">Добро пожаловать в новую клинику <br>в Санкт-Петербурге</div>
-                <div class="main__button">
+                <div class="main__button btn-main">
                     <a href="#" class="btn btn__main">Записаться на прием</a>
                 </div>
             </div>
         </main>
-        <section class="slider">
+        <section class="main__pink-block">
+            <div class="pink-block__container">
+                <div class="pink-block__arrow">
+                    <a href="#"><img src="img/small/ArrowBottom.svg" alt="arrow"></a>
+                </div>
+                <div class="btn-pinks">
+                    <a href="#" class="btn__pink">Записаться на прием</a>
+                </div>
+            </div>
+        </section>
+        <section class="slider" id="burger-one">
             <div class="slider__container">
                 <img src="img/loveright.png" alt="love" class="love__img__right">
                 <img src="img/lovelift.png" alt="love" class="love__img__left">
+                <img src="img/small/lovedog.png" alt="loveDog" class="loveDog">
+                <img src="img/small/ball.png" alt="ball" class="ball">
                 <h2 class="slider__title">Центр вакцинации и профилактической ветеринарной медицины Your Dog</h2>
                 <div class="slider__row">
                     <div class="slider__left">
@@ -62,23 +75,23 @@
                             <img src="img/slider/item2.jpg" alt="photo">
                         </div>
                         <div class="slider__item">
-                            <img src="img/slider/item3.jpg" alt="photo">
+                            <img src="img/slider/item3.jpg" alt="photo" class="">
                         </div>
                     </div>
                     <div class="slider__right">
-                        <p class="slider__text">Мы относимся к маленьким друзьям с заботой и вниманием.</p>
-                        <p class="slider__text">Наша основная цель — сохранить здоровье вашего питомца на долгие годы.</p>
-                        <p class="slider__text">При первом осмотре мы составим индивидуальную программу по кормлению, физической активности, уходу, профобработкам, вакцинациям и диспансеризациям для животного на ближайший срок (до перехода питомца в следующую возрастную категорию).</p>
+                        <p class="slider__text text-one">Мы относимся к маленьким друзьям с заботой и вниманием.</p>
+                        <p class="slider__text text-two">Наша основная цель — сохранить здоровье вашего питомца на долгие годы.</p>
+                        <p class="slider__text text-three">При первом осмотре мы составим индивидуальную программу по кормлению, физической активности, уходу, профобработкам, вакцинациям и диспансеризациям для животного на ближайший срок (до перехода питомца в следующую возрастную категорию).</p>
                     </div>
                 </div>
                 <img src="img/paws.svg" alt="paws" class="paws">
             </div>
         </section>
-        <section class="cards">
+        <section class="cards" id="burger-two">
             <div class="cards__container">
                 <h2 class="cards__title">Цены на прием специалистов</h2>
                 <div class="cards__row-top">
-                    <div class="cards__item">
+                    <div class="cards__item item__small-01">
                         <img src="img/cards/01.jpg" alt="01" class="item01">
                         <div class="cards__content">
                             <p class="cards-text">Прием терапевта</p>
@@ -86,7 +99,7 @@
                             <h3 class="cards-price">1 000 ₽</h3>
                         </div>
                     </div>
-                    <div class="cards__item">
+                    <div class="cards__item item__small-02">
                         <img src="img/cards/02.jpg" alt="02" class="item02">
                         <div class="cards__content">
                             <p class="cards-text">Прием кардиолога</p>
@@ -94,7 +107,7 @@
                             <h3 class="cards-price">1 200 ₽</h3> 
                         </div>
                     </div>
-                    <div class="cards__item">
+                    <div class="cards__item item__small-03">
                         <img src="img/cards/03.jpg" alt="03" class="item03">
                         <div class="cards__content">
                             <p class="cards-text">Прием нефролога</p>
@@ -102,7 +115,7 @@
                             <h3 class="cards-price">1 200 ₽</h3>
                         </div>
                     </div>
-                    <div class="cards__item">
+                    <div class="cards__item item__small-04">
                         <img src="img/cards/04.jpg" alt="04" class="item04">
                         <div class="cards__content">
                             <p class="cards-text">Прием хирурга</p>
@@ -110,10 +123,10 @@
                             <h3 class="cards-price">1 000 ₽</h3>
                         </div>
                     </div>
-                    <div class="cards__item width_item">
+                    <div class="cards__item width_item item__small-05">
                         <img src="img/cards/05.jpg" alt="05" class="item05">
                         <div class="cards__content">
-                            <p class="cards-text">Прием специалиста по поведению собак</p>
+                            <p class="cards-text cards-text__latter">Прием специалиста по поведению собак</p>
                             <p class="cards-text_about">зоопсихолог</p>
                             <h3 class="cards-price">1 500 ₽</h3>
                         </div>
@@ -153,6 +166,8 @@
                         Является членом «Санкт-Петербургского ветеринарного общества».</p>
                     </div>
                 </div>
+                <img src="img/small/Ellipseleft.png" alt="Ellipseleft" class="elipseleft">
+                <img src="img/small/Ellipseright.png" alt="Ellipseright" class="ellipseright">
             </div>
         </section>
         <section class="aplication">
@@ -178,9 +193,9 @@
                 </div>
             </div>
         </section>
-        <section class="map">
+        <section class="map" id="burger-three">
             <h2 class="map__title">Как нас найти</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.479694593122!2d30.345306816173082!3d59.92418207022667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631ae6e905ee3%3A0xd6a116b152be1149!2z0KDQsNC30YrQtdC30LbQsNGPINGD0LsuLCAyMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTAwMg!5e0!3m2!1sru!2sru!4v1644786247671!5m2!1sru!2sru" width="100%" height="578" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.479694593122!2d30.345306816173082!3d59.92418207022667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631ae6e905ee3%3A0xd6a116b152be1149!2z0KDQsNC30YrQtdC30LbQsNGPINGD0LsuLCAyMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTAwMg!5e0!3m2!1sru!2sru!4v1644786247671!5m2!1sru!2sru" width="100%" height="578" style="border:0;" allowfullscreen="" loading="lazy" class="map__small"></iframe>
         </section>
         <div class="footer">
             <div class="footer__container">

@@ -6,6 +6,7 @@ $(document).ready(function(){
         fade: true,
         cssEase: 'linear',
         autoplay:true,
+        adaptiveHeight: true, 
     });
     // используй маскединпут на jquery
     $("#phone").mask("+7(999) 999-9999");
