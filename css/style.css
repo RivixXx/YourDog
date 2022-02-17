@@ -767,6 +767,7 @@
     }
     .main {
         background: url(../img/bgMainSmall.jpg);
+        margin-top: 80px;
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
