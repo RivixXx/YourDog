@@ -776,7 +776,7 @@
     .main__text-small {
         display: block;
         z-index: 5;
-        padding-top: 100px;
+        padding-top: 20px;
         width: 280px;
         text-align: left;
         font-family: Comfortaa;
